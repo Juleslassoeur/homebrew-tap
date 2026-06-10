@@ -33,6 +33,9 @@ class Raccoontools < Formula
 
       On first launch, grant Accessibility permission in
       System Settings > Privacy & Security > Accessibility.
+
+      Updating from a previous version? macOS may ask to allow Keychain
+      access for your stored API keys — choose "Always Allow".
     EOS
   end
 
