@@ -6,6 +6,14 @@ class Raccoontools < Formula
   license "MIT"
   head "https://github.com/Juleslassoeur/RaccoonTools.git", branch: "main"
 
+  bottle do
+    root_url "https://github.com/Juleslassoeur/RaccoonTools/releases/download/v1.1.0"
+    rebuild 1
+    sha256 arm64_tahoe:   "2e8786bebda2f2c98fdb619cd8d5a40354e36adc5b904562c9379b982ee29c09"
+    sha256 arm64_sequoia: "86d84378171faf1dd63dfc2b64d1f3beec45d97085808aab633fbc0cfcb83173"
+    sha256 arm64_sonoma:  "8f92ff4d125dc5ae2cba0a64b40e6122a6a5d5fdd3fe84b2794deb1918f713fb"
+  end
+
 
   depends_on macos: :ventura
 
