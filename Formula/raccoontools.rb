@@ -1,18 +1,11 @@
 class Raccoontools < Formula
   desc "Spotlight-style launcher with built-in tools and a contextual AI writing assistant"
   homepage "https://github.com/Juleslassoeur/RaccoonTools"
-  url "https://github.com/Juleslassoeur/RaccoonTools/archive/refs/tags/v1.2.0.tar.gz"
-  sha256 "de09cb9351fcaff5e1f8591b5ba5a61665780505303578780aaea741bdbbd8c8"
+  url "https://github.com/Juleslassoeur/RaccoonTools/archive/refs/tags/v1.3.0.tar.gz"
+  sha256 "3676715467441352262d1f9441ad9b46664979126b55f49c40f5f9e5cf5d8a0f"
   license "MIT"
   head "https://github.com/Juleslassoeur/RaccoonTools.git", branch: "main"
 
-  bottle do
-    root_url "https://github.com/Juleslassoeur/RaccoonTools/releases/download/v1.2.0"
-    rebuild 1
-    sha256 arm64_tahoe:   "f7f00eecae65a6c29c022d98727ab19d588d96195bd60618f9acde9df403b359"
-    sha256 arm64_sequoia: "05043e2492dcbc1ad9374922220038d85edbe47a0b145c29a1fac544e2e73ee0"
-    sha256 arm64_sonoma:  "4c0e88e281734834676649342d7d837b97409840d49831a8d8fdc679114453c6"
-  end
 
 
 
